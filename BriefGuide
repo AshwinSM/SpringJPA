@@ -1,0 +1,19 @@
+Step 1:
+Go to Spring initialzr : https://start.spring.io/
+Add the following dependencies : Web , JPA , H2, MySQL
+Generate the project and then extract it
+
+Step 2:
+Add the application.properties file in src/main/resources
+
+Step 3:
+Create the Model class (POJO) and add corresponding annotations and values(as mentioned in com.spring.jpa.model)
+
+Step 4:
+Add Dao interface and inherit CrudRepository
+
+Step 5:
+Add Corresponding controller and service methods
+
+Step 6:
+Run the application as Java Application from main class(com.spring.jpa)

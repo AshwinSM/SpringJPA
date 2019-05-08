@@ -1,0 +1,35 @@
+Insert:
+Method: POST
+URL : http://localhost:8080/userDetail/
+Json:{
+        "name": "Ashwin",
+        "age": 22,
+        "designation": "Developer",
+        "prefferedLanguage": "Java",
+        "city": "Chennai"
+    }
+*******************************************    
+Update:
+Method : PUT
+URL : http://localhost:8080/userDetail/
+Json : {
+	"id" : "1",
+    "name": "Ashwath",
+    "age": 22,
+    "designation": "Developer",
+    "prefferedLanguage": "c++",
+    "city": "Kochi"
+    }
+*******************************************
+Get By Id:
+Method : GET
+URL : http://localhost:8080/userDetail?id=1
+*******************************************
+Get All:
+Method : GET
+URL : http://localhost:8080/usersDetail
+*******************************************
+Delete : 
+Method : DELETE
+URL : http://localhost:8080/userDetail?id=1
+*******************************************
